@@ -1,4 +1,5 @@
 resource "aws_security_group" "allow_login" {
+name = "mysgtest"
   description = "Allow  inbound traffic"
 
   ingress {
